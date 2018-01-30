@@ -1,5 +1,5 @@
 {
-  "name": "swagger-module",
+  "name": "nuxt-swagger-module",
   "version": "0.0.0",
   "description": "",
   "license": "MIT",
@@ -9,7 +9,7 @@
     }
   ],
   "main": "lib/module.js",
-  "repository": "https://github.com/daichirata/swagger-module",
+  "repository": "https://github.com/daichirata/nuxt-swagger-module",
   "publishConfig": {
     "access": "public"
   },
@@ -34,7 +34,7 @@
     ]
   },
   "dependencies": {
-
+    "js-yaml": "^3.10.0"
   },
   "devDependencies": {
     "nuxt-module-builder": "latest"
